@@ -9,7 +9,10 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(RiquveIC.MODID);
 
-    public static final DeferredItem<Item> STEEL = ITEMS.register("steel_ingot",
+    public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> RIQUVE_GEAR = ITEMS.register("riquve_gear",
             () -> new Item(new Item.Properties()));
 
     public static void registerItems(IEventBus eventBus) {
