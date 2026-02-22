@@ -1,13 +1,3 @@
 {
-  "itemGroup.riquveic": "Example Mod Tab",
-  "block.riquveic.example_block": "Example Block",
-  "item.riquveic.example_item": "Example Item",
-
-  "riquveic.configuration.title": "riquveIC Configs",
-  "riquveic.configuration.section.riquveic.common.toml": "riquveIC Configs",
-  "riquveic.configuration.section.riquveic.common.toml.title": "riquveIC Configs",
-  "riquveic.configuration.items": "Item List",
-  "riquveic.configuration.logDirtBlock": "Log Dirt Block",
-  "riquveic.configuration.magicNumberIntroduction": "Magic Number Text",
-  "riquveic.configuration.magicNumber": "Magic Number"
+  "item.riquveic.steel": "Steel ingot"
 }
